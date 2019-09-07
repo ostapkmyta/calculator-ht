@@ -3,7 +3,8 @@
     const opers = document.querySelectorAll('.calc .opers button');
     const display = document.querySelector('.calc .display');
     const equal = document.querySelector('.calc .eq');
-    const erser = document.querySelector('.calc .ers')
+    const erser = document.querySelector('.calc .ers');
+    const divide = document.querySelector('.calc .divide')
     nums.forEach( buttonNum => buttonNum.addEventListener('click', numPressed) );
     function numPressed(ev) {
         const num = ev.target.innerText;
@@ -15,4 +16,13 @@
         display.value += oper;
     }
     equal.addEventListener('click', () => display.value = eval(display.value) );
-    erser.addEventListener('click', () => reset.value = eval(display.value) );
+    erser.addEventListener('click', () => display.value =('') );
+    equal.addEventListener('click', dividePressed);
+    function dividePressed(ev) {
+        if 
+    }
+
+
+
+
+
