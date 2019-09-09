@@ -17,10 +17,7 @@
     }
     equal.addEventListener('click', () => display.value = eval(display.value) );
     erser.addEventListener('click', () => display.value =('') );
-    equal.addEventListener('click', dividePressed);
-    function dividePressed(ev) {
-        if 
-    }
+    
 
 
 
