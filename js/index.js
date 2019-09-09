@@ -1,5 +1,4 @@
-// Calculator
-    const nums = document.querySelectorAll('.calc .nums button');
+   const nums = document.querySelectorAll('.calc .nums button');
     const opers = document.querySelectorAll('.calc .opers button');
     const display = document.querySelector('.calc .display');
     const equal = document.querySelector('.calc .eq');
@@ -17,9 +16,3 @@
     }
     equal.addEventListener('click', () => display.value = eval(display.value) );
     erser.addEventListener('click', () => display.value =('') );
-    
-
-
-
-
-
